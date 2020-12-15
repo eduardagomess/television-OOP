@@ -1,7 +1,7 @@
 class RemoteControl:
 
-    def __init__(self, a):
-        self.television = a
+    def __init__(self, television):
+        self.television = television
 
     def increaseVolume(self):
         return self.television.changeVolume(+1)
